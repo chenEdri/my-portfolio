@@ -36,13 +36,13 @@ export class Skill extends Component {
                 lable: 'Useful techniques',
                 array: [
                     { name: 'Sass', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1604911282/my-portfolio/1280px-Sass_Logo_Color.svg_bda1ns.png' },
-                    { name: 'Regular Expression', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1605028841/my-portfolio/write-regular-expression-or-regex-for-your-code_jkom4a.png' },
                     { name: 'Google-Api\'s', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1605028895/my-portfolio/1_ujbpBAj9o9_GtVOVVs-JOA_rnfbjk.png' },
                     { name: 'Npm-libaries', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1605028929/my-portfolio/1920px-Npm-logo.svg_ioh6vc.png' },
                     { name: 'Canvas', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1604911729/my-portfolio/Html5_canvas_logo_b6cmqb.png' },
                     { name: 'Socket-io', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1604911847/my-portfolio/socket-io-javascript-express-js-react-logo-png-favpng-68mCtc3fMmpFxGyCREqztPjT7_q6mbkx.jpg' },
                     { name: 'Git-hub', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1604912199/my-portfolio/800px-Font_Awesome_5_brands_github.svg_isczec.png' },
                     { name: 'Hiroku', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1604912340/my-portfolio/cenlvst0fgs8ejx12n8u_hd61oq.png' },
+                    { name: 'Regular Expression', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1605028841/my-portfolio/write-regular-expression-or-regex-for-your-code_jkom4a.png' },
                     { name: 'Cloudinary', imgUrl: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1604911655/my-portfolio/cloudinary_icon_d829tv.png' }
                 ]
             }
