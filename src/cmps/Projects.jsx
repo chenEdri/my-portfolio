@@ -42,7 +42,7 @@ export function Project() {
                     header="Weather"
                     body="this project demonstart my ability to build within 3 hours simple web app using API's"
                     img="https://res.cloudinary.com/dygtul5wx/image/upload/v1605002325/my-portfolio/weather_ikv0bi.png"
-                    link="https://chenedri.github.io/weather-app/."
+                    link="https://chenedri.github.io/weather-app/"
                     tools={[
                         { url: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1604911311/my-portfolio/1280px-React-icon.svg_tomrpn.png', title: 'React' },
                         { url: 'https://res.cloudinary.com/dygtul5wx/image/upload/v1604911534/my-portfolio/logo_raw_zajdfp.svg', title: 'Material-ui' },
