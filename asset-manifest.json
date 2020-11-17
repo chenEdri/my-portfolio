@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.ffec0176.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.f32786b9.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.f32786b9.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.e543e630.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.e543e630.js.map",
+    "static/js/2.9063b361.chunk.js": "/my-portfolio/static/js/2.9063b361.chunk.js",
+    "static/js/2.9063b361.chunk.js.map": "/my-portfolio/static/js/2.9063b361.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.ffec0176.chunk.css.map": "/my-portfolio/static/css/main.ffec0176.chunk.css.map",
+    "static/js/2.9063b361.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.9063b361.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/my-portfolio/static/media/Poppins-SemiBold.cce5625b.ttf",
+    "static/media/Chen_Edri_CV.pdf": "/my-portfolio/static/media/Chen_Edri_CV.066bbd38.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e543e630.js",
+    "static/js/2.9063b361.chunk.js",
+    "static/css/main.ffec0176.chunk.css",
+    "static/js/main.f32786b9.chunk.js"
+  ]
+}
