@@ -1,0 +1,53 @@
+.project-container {
+  display: grid;
+  min-height: 25vh;
+
+  > * {
+    grid-column: 2;
+
+    &.full {
+      grid-column: 1 /-1;
+    }
+  }
+
+  .project-headline {
+    color: #c4c0c0;
+    font-family: BitterB;
+    line-height: 1;
+  }
+
+  .cards-container {
+    margin: 20px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 30px;
+
+    @include for-narrow-layout {
+        grid-template-columns: 1fr;
+        grid-gap:45px;
+    }
+    @include for-normal-layout {
+        grid-template-columns: 
+            repeat(2, 1fr)
+    }
+    @include for-wide-layout {
+        grid-template-columns: repeat(3, 1fr)
+    }
+  }
+
+  @include for-narrow-layout {
+    grid-template-columns: 
+        minmax(20px, 1fr)
+        minmax(auto, $mobile-breakpoint)
+        minmax(20px, 1fr);
+}
+@include for-normal-layout {
+    grid-template-columns: 
+        minmax(20px, 1fr)
+        minmax(auto, $narrow-breakpoint)
+        minmax(20px, 1fr);
+}
+@include for-wide-layout {
+    grid-template-columns: 100px auto 20px;
+}
+}

@@ -1,0 +1,112 @@
+.jumbo-container {
+  background: rgb(15, 0, 36);
+  background: linear-gradient(
+    0deg,
+    #0f0024 0%,
+    rgba(43, 43, 97, 0.7738445720084909) 41%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: BitterB;
+  height: 80vh;
+  color: $clr3;
+  padding: 10px auto;
+  //   margin: 0px 18px 0px 18px;
+
+  .main-logo {
+    // position: absolute;
+    z-index: 2;
+    display: flex;
+    padding-left: 100px;
+    flex-grow: 1;
+    width: 50%;
+    height: 70%;
+  }
+
+  .slogan {
+    display: flex;
+    padding-top: rem(40px);
+    color: #222222;
+  }
+
+  .slogan-2 {
+    display: flex;
+    color: #222222;
+    line-height: 1.4;
+    font-size: 3.5vw;
+  }
+
+  .slogan-2:hover {
+    width: fit-content;
+    color: $clr2;
+    transition: 0.4s;
+  }
+
+  .jumbo-img {
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/dygtul5wx/image/upload/v1604996138/my-portfolio/newP_go6oiv.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    opacity: 0.6;
+    position: relative;
+    display: flex;
+  }
+
+  .about {
+    p {
+      font-size: 1.4vw;
+      font-family: BitterR;
+      line-height: 1.5;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .jumbo-container {
+    display: flex;
+    flex-direction: column-reverse;
+    .main-logo {
+      margin: 0 auto;
+      padding: 0;
+    }
+    .slogan{
+      color: #ffffff;
+    }
+    .slogan-2{
+      color: #ffffff;
+    }
+
+    .jumbo-img {
+      margin: 0 auto;
+      background-size: cover;
+      height: 70%;
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .jumbo-container {
+    height: 75vh;
+    h1{
+      font-size: 3rem;
+    }
+    h2{
+      font-size: 2rem;
+    }
+    .main-logo {
+      height: 40%;
+      width: 100%;
+      margin: 0;
+    }
+    .jumbo-img {
+      width:100%;
+      margin: 0;
+    }
+    .about{
+      p{
+        font-size: 11px;
+      }
+    }
+  }
+}
